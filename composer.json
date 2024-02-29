@@ -1,0 +1,32 @@
+{
+    "name": "vamsik4399/mage",
+    "description":"Import customers",
+    "keywords": [
+        "magento 2"
+    ],
+    "require": {
+        "php": "~8.0.0|8.1.0|~8.1.25",
+        "magento/framework": "103.0.*"
+    },
+    "type": "magento2-module",
+    "version": "2.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Vamsee Krishna",
+            "email": "vamsimage4@gmail.com",
+            "role": "Magento 2 Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Mage\\Import\\": ""
+        }
+    }
+}

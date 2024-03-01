@@ -5,7 +5,7 @@
         "magento 2"
     ],
     "require": {
-        "php": "~8.0.0|8.1.0|~8.1.25",
+        "php": "~8.0.0|8.1.0|~8.1.25|7.2.32",
         "magento/framework": "103.0.*"
     },
     "type": "magento2-module",
